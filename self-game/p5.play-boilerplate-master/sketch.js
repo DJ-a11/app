@@ -1,7 +1,9 @@
-var form1
+var form1, database
 function setup() {
   createCanvas(displayWidth, displayHeight);
+  database = firebase.database();
  form1 = new Form ();
+ 
 }
 
 
